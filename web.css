@@ -1,0 +1,25 @@
+@keyframes selam {
+    0% {
+        color: red;
+      }
+    25% {
+        color: green
+      }
+    
+    50% {
+        color: blue;
+      }
+    
+    75% {
+        color: blueviolet;
+      }
+    100% {
+        color: red;
+    }
+}
+body {
+    background-color: rgb(100, 100, 100);
+}
+h1 {
+    animation: selam 3s infinite;
+}
